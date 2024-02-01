@@ -1,0 +1,45 @@
+.my-container{
+   width: 700px;
+   margin: 40px auto 0px;
+    background-color: burlywood;
+    border-radius: 30px;
+    padding: 40px;
+
+}
+
+.my-container h1{
+    font-size: 27px;
+    text-align: center;
+    color: rgb(75, 57, 25);
+    
+}
+
+
+.bbox{
+    display: flex;
+    align-items: center;
+  
+    justify-content: space-between;
+}
+
+.img{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    }
+
+
+.bbox img:nth-child(1){
+ height: 30px;
+ cursor: pointer;
+ 
+}
+
+.bbox img:nth-child(2){
+    height: 20px;
+    cursor: pointer;
+
+   }
+
+   .author-name h5{
+    font-size: 17px;}
